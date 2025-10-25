@@ -1,0 +1,31 @@
+SALES DATA QUALITY REPORT
+============================================================
+
+Dataset: Sales Data
+Original_Rows: 25000
+Cleaned_Rows: 25000
+Rows_Removed: 0
+Percentage_Retained: 100.00%
+Original_Unique_Transaction_IDs: 24661
+Duplicate_Transaction_IDs_Found: 339
+Resolution_Method: Transaction_ID + Date Composite Key
+Final_Unique_Transaction_IDs: 25000
+Uniqueness_Achieved: 100% (Natural Composite Key)
+Transactions_With_Future_Dates: 111
+Date_Range: 2023-01-01 00:00:00 to 2025-10-28 00:00:00
+Transactions_With_Invalid_Customer_IDs: 0
+Missing_Values_Original: 0
+Missing_Values_Cleaned: 0
+Pre_Discount_Calculation_Errors: 0
+Total_Calculation_Errors: 0
+Total_Transactions: 25000
+Unique_Customers: 1000
+Total_Revenue: $12,535,612.80
+Total_Profit: $4,094,554.28
+Average_Transaction_Value: $501.42
+Average_Profit_Margin: 29.83%
+
+============================================================
+
+Cleaning completed successfully!
+Cleaned data available at: output_data/Sales_cleaned.csv

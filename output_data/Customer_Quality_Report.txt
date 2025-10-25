@@ -1,0 +1,21 @@
+CUSTOMER DATA QUALITY REPORT
+============================================================
+
+Dataset: Customer Data
+Original_Rows: 1000
+Cleaned_Rows: 1000
+Rows_Removed: 0
+Percentage_Retained: 100.00%
+Duplicate_Customer_IDs_Removed: 0
+Missing_Values_Original: 0
+Missing_Values_Cleaned: 0
+Unique_Customers: 1000
+Age_Range: 20 - 70
+Tenure_Range: 0.0 - 10.0
+Unique_Regions: 6
+Unique_Membership_Levels: 3
+
+============================================================
+
+Cleaning completed successfully!
+Cleaned data available at: cleaned_data/Customers_cleaned.csv
